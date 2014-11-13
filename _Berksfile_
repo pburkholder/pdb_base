@@ -1,0 +1,5 @@
+source 'https://supermarket.getchef.com'
+
+metadata
+
+cookbook 'pdb_motd', git: 'https://github.com/pburkholder/pdb_motd.git'

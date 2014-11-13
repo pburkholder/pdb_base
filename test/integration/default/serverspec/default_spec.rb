@@ -1,6 +1,6 @@
 require 'serverspec'
 set :backend, :exec
 
-describe file('/etc/motd') do
-  its(:content) { should match(/Property of Awesome Appliance/) }
+describe file('/etc/release') do
+  its(:content) { should match(/pburkholder/) }
 end
