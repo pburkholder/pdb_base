@@ -1,6 +1,4 @@
-builds
-vendor
-.vagrant
+.bundle
+*.lock
+vendor/
 .kitchen
-.git
-
